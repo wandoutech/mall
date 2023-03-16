@@ -46,6 +46,7 @@ secure:
       - /admin/info
       - /admin/logout
       - /minio/upload
+      - /secmind/xpam/secret/listener
 
 aliyun:
   oss:
@@ -65,3 +66,39 @@ minio:
   bucketName: mall #存储桶名称
   accessKey: minioadmin #访问的key
   secretKey: minioadmin #访问的秘钥
+
+
+xpam:
+#  url: http://81.68.196.194:33199/opensdk/appService/extractSecrets
+  url: http://10.10.120.9:33199/opensdk/appService/extractSecrets
+#  url: https://10.10.120.9/opensdk/appService/extractSecrets
+  serviceId: 64129f2a13954d001517a51e
+  secret: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlPScaDnCNDEnyvhd2f69Fa2aaAm0e89Ce3b0DQmtff/CZiLDCbWnaMVf6Pes4lNeL4tMclViAGx4UFR0BZFWCcOZJASZ+XqBhzlDRlU7utnzRpaTXUTH9/e69u8Y+l432mSv1jHmpKSqcfCI7PGAos3XiPi8cgtdsVr/sIXSZRip98BX1lEkaBjsiH64daQeswKNFgRnisBIj+MgmhWxg5eoij02xJmeCA5k1vUnMirnL8t5U6ulF2wHONy3VGzk/T9rGS/Sk3uimj+3FXda/7n480yMv4PeGNPSqQ7AEMxi6Z4gFH9FeMVbuom/Shx4+OnIAk0Ni+DPuhra5DDikQIDAQAB
+  clientSecret: "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUXfmHI9iQGzyf
+JlhkEuZt4UbrLRsb7/EhXyfsN+dVinmpH149SnT4M0R4NeuMpNfVtdg4aNoCu4W5
+BKIL/seT8cjmFBCN+M77F8H2KA+m3PbPE5OToGufA227inWQWOHinzx0HECy3asy
+1tf7KcwW4RnlRU4WEKCxsTxc1dCHCX+1teSc7G0WEqK6yICg6toHB7CSnUByv2hY
+C5xe6wWJwSvz6LwGRj+77q+f4cel4Qxcdb8rsTD49HCUGfAfue8uSp3/ajNmZ5Gi
+a4L+ORvEQ38DbPgaM80eR86wQK6z8sqtpmHLCjPXpOKr99u//UMiWjG8KFGkxLMu
+sPIZRpV9AgMBAAECggEAQJkBUQEvW85dJ1ADrRUusJfI+bpzt5DJ+Uu3mhv7K0L+
+9NnM0bn3UJRPrH1CVDrESIaS6b3DKvedmoT1Qc7TKIZwhMPvsS/QzgIRBu5yrGAk
+VyLuTgaLFgh19YkNb8YJl+S1/9+kMoRJEiLV+dlh8kewl9P4B7AxITv3T4neb2R/
+QOVqbDzvEaYyQqiKi727R1xcoWK5gmSfJzoR7d59r0YVlYTirjY1Z/QADV2Mo3vD
+AbLfzleE0sT1IzCsz7rddBzafq5sJncOdGdR5821Un9YH5ebjhqVSPUgIxR4+Vxp
+Jftc7boB29KbMlXrle7MRiOjigj6XvAnukRQyJ4cRQKBgQD1lCQk65NClEt6sLVJ
++cADFn9h2wXT4nihJmS7D/P0/1w3NcbDBGBQRBYzvm7rfZP60BY+/1EIdeaRTTpf
+zuqt2tmlntrJed13VPsLLR+lw16jr2fB/PawOVe+19hG6DTUO+NOx26v4Fixax4J
+QXgBuNEv+/Z2tiqNGrFk3cDyUwKBgQDdYQmVcqnIUwsg/blOTckJZME44GkrY+gW
+xrCwbv/08l0wSDa/gDlIf3FWyf3vmXHG2tm1gJZplxPH03D7yG88M87jCkpdrKYw
+S2M2Hex2Pq4KTdjQy++YXFJ0PUjg2B3VILynkO59xABzm3k3AiS1bOAKFtgZXqBu
+wcWlzLL+7wKBgQCJeAnbmPtwE69E2NJCvMmdcOSRlJdoiqfYHbPZew6nIKMwTKwc
+0sBPbi23fWx96mgByKYLUcS8pbMRt1dr9losRAv9yDTU/6DXgfydvv6uPfUmT7QX
+RVGaSB80N4Nb/fREsdmGaeEuFrnPZxUDPWC+JgUDhVnsDgE3x69xtSii/QKBgGCd
+iws4QbT12TOKyCbOd+CrolBqUDvpnE7kZBR8PSTv6Y+61Hn7QgTL6fEQssyw0SES
+PlWiSwLGNpHNS8/3B+TkT3Ry90WupdEJ9cCWiq6IaHiCxQ9LEcQS9sFYRcgrScnM
+Qcl3zT4CHphV0C8btl2fqJ9+nM1lqOrtko7rqWrtAoGADsQuKqdoTBqZ3ijyLD+U
+64ekIuZmvdBwdDKiYmjqtQe7bduV1y7LZDkgC5viJqAf7j7heMWjxkydPr8b3XYR
+ErT6YsbAS2suUTWYmvAEX2IV7/EMU/Sa05MoWIClTZX5q1UzIrHlwSAisg8XzFWm
+cmq8155H5BLgi8kxDBpe93Y="
+
+
